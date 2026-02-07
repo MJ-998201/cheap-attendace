@@ -2,7 +2,7 @@
 
 <!-- ================= LOGO ================= -->
 <!-- Replace the src below with your project logo -->
-<img src="" alt="AttendAce Logo" width="120"/>
+<img src="https://github.com/MJ-998201/cheap-attendace/blob/d80dbf0976dbf194ea45f1eb3ef08144fc146fc9/1757330910815_Nero_AI_Image_Upscaler_Photo_Face%20(1).png" alt="AttendAce Logo" width="120"/>
 
 # 🎓 AttendAce
 ### *Smart Attendance. Zero Excuses.*
