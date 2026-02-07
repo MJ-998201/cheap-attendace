@@ -94,6 +94,7 @@ It cares about:
 
 ## 🧰 Tech Stack
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Backend
 - Node.js
 - Express.js
@@ -256,21 +257,20 @@ They:
 
 ---
 
-## 🔔 HEDWIG — Telegram Dev Alerts
+## 🦉 HEDWIG: Developer Visibility System
 
-HEDWIG is not a chatbot.
+Most systems fail quietly.
 
-It is a **signal pipe**.
+AttendAce doesn't.
 
-Whenever users submit feedback or report issues:
+HEDWIG is a Telegram-based alert pipe that ensures:
 
-- backend sanitizes the message
-- pushes it to Telegram Bot API
-- Hedwig posts instantly in the dev group
+- Feedback is delivered instantly
+- Bugs don't sit inside dashboards
+- Developers receive signals in real-time
 
-> No inbox fatigue.  
-> No silent failures.  
-> Visibility is instant.
+> AttendAce treats feedback as an interrupt, not a background task.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
