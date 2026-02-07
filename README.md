@@ -79,13 +79,11 @@
 <td width="50%" align="center">
 
 ### 📈 Attendance Activity
-<img src="assets/activity-graph.png" width="90%"/>
 
 </td>
 <td width="50%" align="center">
 
 ### ⏱ Session Timeline
-<img src="assets/session-graph.png" width="90%"/>
 
 </td>
 </tr>
@@ -101,8 +99,7 @@
 <tr>
 <td width="50%" align="center">
 
-### Backend
-<img src="assets/backend-stack.png" width="80%"/>
+### ⚙️ Backend
 
 Node.js  
 Express.js  
@@ -113,8 +110,7 @@ JWT Auth
 
 <td width="50%" align="center">
 
-### Frontend
-<img src="assets/frontend-stack.png" width="80%"/>
+### 🎨Frontend
 
 HTML  
 Tailwind CSS  
@@ -126,15 +122,6 @@ Vanilla JavaScript
 
 ---
 
-<!-- ===================== ARCHITECTURE ===================== -->
-
-## 🧩 Architecture Diagram
-
-<p align="center">
-  <img src="https://github.com/MJ-998201/cheap-attendace/blob/15f6a155ecda08c6840513654368d89a0e67c0af/9fde7ab0-8e86-4d60-9785-d9173d1a41e0.png" width="95%"/>
-</p>
-
----
 
 <!-- ===================== FEATURES ===================== -->
 
@@ -144,9 +131,8 @@ Vanilla JavaScript
 <tr>
 <td width="33%" align="center">
 
-<img src="assets/qr-icon.png" width="60"/>
 
-### QR Sessions
+### 📱 QR Sessions
 Rotating & expiring  
 Screenshot-proof  
 
@@ -154,9 +140,8 @@ Screenshot-proof
 
 <td width="33%" align="center">
 
-<img src="assets/face-icon.png" width="60"/>
 
-### Face Verification
+### 📱Face Verification
 Browser-only  
 No image storage  
 
@@ -164,9 +149,8 @@ No image storage
 
 <td width="33%" align="center">
 
-<img src="assets/security-icon.png" width="60"/>
 
-### Secure Auth
+### 🔐 Secure Auth
 JWT + OTP  
 Role enforcement  
 
@@ -204,22 +188,11 @@ Role enforcement
 
 ---
 
-<!-- ===================== ANALYTICS ===================== -->
-
-## 📊 Analytics Preview
-
-<p align="center">
-  <img src="assets/analytics-dashboard.png" width="90%"/>
-</p>
-
----
-
 <!-- ===================== ALERT SYSTEM ===================== -->
 
 ## 🦉 HEDWIG – Developer Alerts
 
 <p align="center">
-  <img src="assets/hedwig-bot.png" width="200"/>
 </p>
 
 • Instant Telegram alerts  
