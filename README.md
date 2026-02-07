@@ -131,7 +131,7 @@ Vanilla JavaScript
 ## 🧩 Architecture Diagram
 
 <p align="center">
-  <img src="assets/architecture-diagram.png" width="95%"/>
+  <img src="https://github.com/MJ-998201/cheap-attendace/blob/15f6a155ecda08c6840513654368d89a0e67c0af/9fde7ab0-8e86-4d60-9785-d9173d1a41e0.png" width="95%"/>
 </p>
 
 ---
