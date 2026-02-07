@@ -1,1 +1,51 @@
+<div align="center">
+
+<!-- ================= LOGO ================= -->
+<!-- Replace the src below with your project logo -->
+<img src="" alt="AttendAce Logo" width="120"/>
+
+# 🎓 AttendAce
+### *Smart Attendance. Zero Excuses.*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Privacy-First-important?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Built%20With-Node.js%20%7C%20MySQL-blue?style=flat-square"/>
+</p>
+
+---
+
+### 📍 Attendance is not a place  
+### ⏱️ Attendance is a **moment**
+
+</div>
+
+---
+
+<!-- ================= HERO IMAGE ================= -->
+<!-- Add a dashboard / banner image here -->
+<p align="center">
+  <img src="HERO_BANNER_OR_DASHBOARD_IMAGE_URL" alt="AttendAce Preview" width="85%"/>
+</p>
+
+---
+
+## 🌌 What is AttendAce?
+
+**AttendAce** is a session-based, privacy-first attendance system designed to eliminate
+hardware dependency, fake presence, and ambiguous attendance rules.
+
+No fingerprint machines.  
+No fixed classrooms.  
+No blind trust.
+
+Just **identity + time + verification**, enforced by software.
+
+---
+
+## 🧠 Core Philosophy
+
+```txt
+If the session does not exist,
+attendance does not exist.
 
