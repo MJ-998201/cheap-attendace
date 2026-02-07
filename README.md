@@ -25,7 +25,7 @@
 <!-- ================= HERO IMAGE ================= -->
 <!-- Add a dashboard / banner image here -->
 <p align="center">
-  <img src="HERO_BANNER_OR_DASHBOARD_IMAGE_URL" alt="AttendAce Preview" width="85%"/>
+  <img src="https://github.com/MJ-998201/cheap-attendace/blob/46e24f677fbfafa551fa3a6ef007e5a6988bdc59/9fde7ab0-8e86-4d60-9785-d9173d1a41e0.png" alt="AttendAce Preview" width="85%"/>
 </p>
 
 ---
