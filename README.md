@@ -5,7 +5,7 @@
 <td width="25%" align="center">
 
 <!-- PROFILE IMAGE -->
-<img src="assets/app-avatar.png" width="140" style="border-radius:50%"/>
+<img src="https://github.com/MJ-998201/cheap-attendace/blob/0afa13f67b59a3eded26077141ece7c15ee3e95a/1757330910815_Nero_AI_Image_Upscaler_Photo_Face%20(1).png" width="140" style="border-radius:50%"/>
 
 ### AttendAce
 **Session-Based Attendance**
