@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="images/logo.png" alt="AttendAce Logo" width="90" height="90" />
+  <img src="https://github.com/MJ-998201/cheap-attendace/blob/3d6a997d8550d23cf23d6de756f3fd7aea2e9c76/1757330910815_Nero_AI_Image_Upscaler_Photo_Face%20(1).png" alt="AttendAce Logo" width="200" height="200" />
 
   # AttendAce 🎯  
   ### Attendance. Without hardware. Without loopholes. Without creepiness.
