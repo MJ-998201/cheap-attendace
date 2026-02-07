@@ -1,213 +1,314 @@
-<!-- ===================== TOP SECTION ===================== -->
+<!-- Improved compatibility of back to top link -->
+<a id="readme-top"></a>
 
-<table>
-<tr>
-<td width="25%" align="center">
+<div align="center">
 
-<!-- PROFILE IMAGE -->
-<img src="https://github.com/MJ-998201/cheap-attendace/blob/0afa13f67b59a3eded26077141ece7c15ee3e95a/1757330910815_Nero_AI_Image_Upscaler_Photo_Face%20(1).png" width="140" style="border-radius:50%"/>
+  <img src="images/logo.png" alt="AttendAce Logo" width="90" height="90" />
 
-### AttendAce
-**Session-Based Attendance**
+  # AttendAce 🎯  
+  ### Attendance. Without hardware. Without loopholes. Without creepiness.
 
-🟢 Privacy-First  
-🟢 Secure  
-🟢 Smart  
+  <p>
+    AttendAce is a session-driven attendance system built for real classrooms — where devices fail, rooms change, and students try everything.
+  </p>
 
-📍 Institution Ready  
-⏱ Time-Driven  
+  <p>
+    <a href="#about-the-project"><strong>Explore the Project »</strong></a>
+    <br />
+    <br />
+    <a href="#demo">View Demo</a>
+    ·
+    <a href="#roadmap">Roadmap</a>
+    ·
+    <a href="#reporting-issues">Report Bug</a>
+  </p>
 
----
-
-<img src="https://img.shields.io/badge/Status-Active-success"/>
-<img src="https://img.shields.io/badge/Version-1.0-blue"/>
-
-</td>
-
-<td width="50%" align="center">
-
-## 👋 Hey, Welcome to **AttendAce**
-
-### *Attendance Done Right.*
-
-✔ Session-based attendance  
-✔ QR + Face verification  
-✔ No hardware dependency  
-✔ No fake presence  
-
-> Attendance is not a location  
-> Attendance is a **moment**
+</div>
 
 ---
 
-### 🚀 What We Build
+## 📌 Table of Contents
 
-• Smart attendance systems  
-• Privacy-first verification  
-• Secure classroom workflows  
-• Real-time analytics  
+- [About The Project](#about-the-project)
+- [Core Idea](#core-idea)
+- [Tech Stack](#tech-stack)
+- [System Architecture](#system-architecture)
+- [How It Works](#how-it-works)
+- [Security + Privacy](#security--privacy)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Flow](#api-flow)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-</td>
-
-<td width="25%" align="center">
-
-<!-- ILLUSTRATION -->
-<img src="assets/hero-illustration.png" width="200"/>
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ===================== QUICK LINKS ===================== -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Docs-Architecture-blue"/>
-  <img src="https://img.shields.io/badge/System-Session--Driven-green"/>
-  <img src="https://img.shields.io/badge/Security-JWT%20%7C%20OTP-red"/>
-</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-<!-- ===================== STATS SECTION ===================== -->
+## 🧠 About The Project
 
-## 📊 System Overview
+Most attendance systems start with a **device**:  
+Fingerprint scanners. RFID machines. Hardware terminals stuck to a wall.
 
-<table>
-<tr>
-<td width="50%" align="center">
+AttendAce starts with a different question:
 
-### 📈 Attendance Activity
+> What if attendance isn’t a *place*…  
+> What if attendance is a *moment*?
 
-</td>
-<td width="50%" align="center">
+AttendAce is built around **time, identity, and verification** — not rooms, machines, or physical lock-in.
 
-### ⏱ Session Timeline
+### ✨ What AttendAce Solves
 
-</td>
-</tr>
-</table>
+✅ No dependency on a physical device  
+✅ No “machine was down today” excuse  
+✅ No location-locking  
+✅ No screenshot QR cheating  
+✅ No face images stored  
+✅ No silent failures
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-<!-- ===================== TECH STACK ===================== -->
+## ⏳ Core Idea
+
+### **Time Over Place**
+
+AttendAce does not care where you are.  
+It cares about:
+
+- **Who** you are  
+- **When** the class is live  
+- Whether verification happens **inside the active session window**
+- Whether the context makes sense
+
+> Attendance is not a location.  
+> Attendance is a session.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ## 🧰 Tech Stack
 
-<table>
-<tr>
-<td width="50%" align="center">
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- MySQL (connection pooling + env configs)
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- OTP Verification
+- HTTPS (SSL)
 
-### ⚙️ Backend
+### Frontend
+- Plain HTML (role-specific pages)
+- Tailwind CSS
+- Vanilla JavaScript
 
-Node.js  
-Express.js  
-MySQL  
-JWT Auth  
+### Face Recognition (Privacy First)
+- face-api.js
+- TensorFlow.js
+- Tiny Face Detector
+- Face descriptors (vectors only)
 
-</td>
+### Communication / Alerts
+- Email (OTP + notices)
+- Telegram Bot: **HEDWIG 🦉**
+  - Dev alerts for feedback + bug reports
 
-<td width="50%" align="center">
-
-### 🎨Frontend
-
-HTML  
-Tailwind CSS  
-Vanilla JavaScript  
-
-</td>
-</tr>
-</table>
-
----
-
-
-<!-- ===================== FEATURES ===================== -->
-
-## ✨ Core Features
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-
-### 📱 QR Sessions
-Rotating & expiring  
-Screenshot-proof  
-
-</td>
-
-<td width="33%" align="center">
-
-
-### 📱Face Verification
-Browser-only  
-No image storage  
-
-</td>
-
-<td width="33%" align="center">
-
-
-### 🔐 Secure Auth
-JWT + OTP  
-Role enforcement  
-
-</td>
-</tr>
-</table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-<!-- ===================== ROLES ===================== -->
+## 🏗️ System Architecture
 
-## 👥 Roles
+AttendAce is built with one rule:
 
-<table>
-<tr>
-<td width="50%" align="center">
+> Backend and frontend are separate worlds.  
+> They communicate.  
+> They do not share state.  
+> They do not trust each other.
 
-### 🎓 Student
-✔ Mark attendance  
-✔ View analytics  
-✔ Session aware  
-
-</td>
-
-<td width="50%" align="center">
-
-### 🧑‍🏫 Teacher
-✔ Start sessions  
-✔ Generate QR  
-✔ View reports  
-
-</td>
-</tr>
-</table>
+### Backend Structure
+### Frontend Structure
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-<!-- ===================== ALERT SYSTEM ===================== -->
+## ⚡ How It Works
 
-## 🦉 HEDWIG – Developer Alerts
+### 1) Teacher Starts the Story
+- Teacher activates a class
+- A session becomes live
+- QR becomes valid
+- Clock starts ticking
 
-<p align="center">
-</p>
+### 2) Student Enters
+- Student scans QR
+- Face verification runs **locally in browser**
+- Request hits backend
+- Backend checks all conditions
+- Attendance is recorded only if everything passes
 
-• Instant Telegram alerts  
-• Feedback notifications  
-• Bug & security signals  
+### 3) Session Ends
+- Teacher deactivates the class
+- QR dies instantly
+- Attendance stops immediately
+
+> No grace periods.  
+> No background jobs.  
+> No ambiguity.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-<!-- ===================== FOOTER ===================== -->
+## 🧾 Attendance Engine (The Important Part)
 
-<hr>
+Attendance is not a button.  
+It is a checklist.
 
-<p align="center">
+### ✅ Required Conditions
 
-### ⭐ Built to make cheating boring  
-### ⭐ Built to make attendance honest  
+- Valid JWT token  
+- Correct role  
+- Active class session  
+- Valid QR context  
+- Successful face match  
 
-</p>
+### ❌ Fail Fast Rule
+
+If any condition fails:
+
+- No attendance is recorded
+- No partial database writes
+- No “almost”
+
+Database writes happen last. Always.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🧑‍🤝‍🧑 Roles & Permissions
+
+Roles are **not UI suggestions**.  
+They are enforced in backend middleware.
+
+### Students cannot:
+- Activate classes
+- Generate QR codes
+- View teacher analytics
+
+### Teachers cannot:
+- Mark attendance for themselves
+- Register student faces
+- Enroll in classes
+
+If role is wrong → request dies early.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🧿 Face Recognition (Without Being Creepy)
+
+AttendAce uses face recognition as **verification**, not surveillance.
+
+### 🔒 Privacy Guarantees
+
+✅ No face images stored  
+✅ No face images sent to server  
+✅ Only numerical vectors (descriptors) are stored  
+✅ Matching happens locally in browser  
+
+> The server never sees your face.  
+> Only math.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 📷 QR Sessions (Why Screenshots Fail)
+
+QR codes do not identify students.
+
+They identify:
+
+- Class
+- Session
+- Time window
+
+They:
+- expire
+- rotate
+- die instantly when session ends
+
+> QR provides context.  
+> Face provides identity.  
+> Both are required.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🔔 HEDWIG — Telegram Dev Alerts
+
+HEDWIG is not a chatbot.
+
+It is a **signal pipe**.
+
+Whenever users submit feedback or report issues:
+
+- backend sanitizes the message
+- pushes it to Telegram Bot API
+- Hedwig posts instantly in the dev group
+
+> No inbox fatigue.  
+> No silent failures.  
+> Visibility is instant.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🛡️ Security & Posture
+
+Security in AttendAce is quiet and unforgiving.
+
+Common failure points:
+- invalid token
+- expired token
+- wrong role
+- invalid OTP
+- inactive session
+- dead QR
+
+If something works, it already passed multiple gates.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have:
+
+- Node.js (LTS recommended)
+- MySQL Server
+- npm
+- A browser (Chrome recommended for face-api.js)
+
+---
+
+## 🧩 Installation
+
+### 1) Clone the repo
+```sh
+git clone https://github.com/<your-username>/AttendAce.git
+cd AttendAce
